@@ -15,19 +15,21 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "opencv-005-图像混合", "
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "opencv-006-调整图片亮度与对比度", "opencv-006-调整图片亮度与对比度\opencv-006-调整图片亮度与对比度\opencv-006-调整图片亮度与对比度.vcxproj", "{B3F5AA83-B9A9-4C47-9B5A-C40571A80176}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "opencv007-绘制图像与文字", "opencv007-绘制图像与文字\opencv007-绘制图像与文字\opencv007-绘制图像与文字.vcxproj", "{7ECBAD1A-7559-4E7F-94C7-91FE7068803E}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "opencv-007-绘制图像与文字", "opencv007-绘制图像与文字\opencv007-绘制图像与文字\opencv007-绘制图像与文字.vcxproj", "{7ECBAD1A-7559-4E7F-94C7-91FE7068803E}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "opencv008角点检测", "opencv008角点检测\opencv008角点检测\opencv008角点检测.vcxproj", "{25D799E8-5BFA-4AA9-9B90-30E662B05480}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "opencv-008-角点检测", "opencv008角点检测\opencv008角点检测\opencv008角点检测.vcxproj", "{25D799E8-5BFA-4AA9-9B90-30E662B05480}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "opencv009-Canny边缘检测", "opencv009-Canny边缘检测\opencv009-Canny边缘检测\opencv009-Canny边缘检测.vcxproj", "{BA22FE3C-E82C-4B5D-8853-C9A1AF04227E}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "opencv-009-Canny边缘检测", "opencv009-Canny边缘检测\opencv009-Canny边缘检测\opencv009-Canny边缘检测.vcxproj", "{BA22FE3C-E82C-4B5D-8853-C9A1AF04227E}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "opencv010-膨胀与腐蚀及Trackbar的使用", "opencv010-膨胀与腐蚀及Trackbar的使用\opencv010-膨胀与腐蚀\opencv010-膨胀与腐蚀.vcxproj", "{DA3923A0-B68C-40BF-898E-35A66C561E32}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "opencv-010-膨胀与腐蚀及Trackbar的使用", "opencv010-膨胀与腐蚀及Trackbar的使用\opencv010-膨胀与腐蚀\opencv010-膨胀与腐蚀.vcxproj", "{DA3923A0-B68C-40BF-898E-35A66C561E32}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "opencv011-开操作和闭操作", "opencv011-开操作和闭操作\opencv011-开操作和闭操作\opencv011-开操作和闭操作.vcxproj", "{84642520-BB77-4E18-861F-B58C93816D48}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "opencv-011-开操作和闭操作", "opencv011-开操作和闭操作\opencv011-开操作和闭操作\opencv011-开操作和闭操作.vcxproj", "{84642520-BB77-4E18-861F-B58C93816D48}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "opencv-012-图像的阈值操作", "opencv-012-图像的阈值操作\opencv-012-图像的阈值操作\opencv-012-图像的阈值操作.vcxproj", "{FC74535B-86FA-43F4-953E-6F1F8F72ACF8}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "opencv-人流量识别", "opencv-人流量识别\opencv-人流量识别\opencv-人流量识别.vcxproj", "{984542FF-0139-45B3-9235-0E7F2EBDD366}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "opencv-013-轮廓的发现", "opencv-013-轮廓的发现\opencv-013-轮廓的发现.vcxproj", "{7301B875-5B06-4105-9445-63D5F5E8BE28}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -141,6 +143,14 @@ Global
 		{984542FF-0139-45B3-9235-0E7F2EBDD366}.Release|x64.Build.0 = Release|x64
 		{984542FF-0139-45B3-9235-0E7F2EBDD366}.Release|x86.ActiveCfg = Release|Win32
 		{984542FF-0139-45B3-9235-0E7F2EBDD366}.Release|x86.Build.0 = Release|Win32
+		{7301B875-5B06-4105-9445-63D5F5E8BE28}.Debug|x64.ActiveCfg = Debug|x64
+		{7301B875-5B06-4105-9445-63D5F5E8BE28}.Debug|x64.Build.0 = Debug|x64
+		{7301B875-5B06-4105-9445-63D5F5E8BE28}.Debug|x86.ActiveCfg = Debug|Win32
+		{7301B875-5B06-4105-9445-63D5F5E8BE28}.Debug|x86.Build.0 = Debug|Win32
+		{7301B875-5B06-4105-9445-63D5F5E8BE28}.Release|x64.ActiveCfg = Release|x64
+		{7301B875-5B06-4105-9445-63D5F5E8BE28}.Release|x64.Build.0 = Release|x64
+		{7301B875-5B06-4105-9445-63D5F5E8BE28}.Release|x86.ActiveCfg = Release|Win32
+		{7301B875-5B06-4105-9445-63D5F5E8BE28}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

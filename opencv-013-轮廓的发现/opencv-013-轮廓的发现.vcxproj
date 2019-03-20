@@ -19,11 +19,10 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{BA22FE3C-E82C-4B5D-8853-C9A1AF04227E}</ProjectGuid>
+    <ProjectGuid>{7301B875-5B06-4105-9445-63D5F5E8BE28}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>opencv009Canny边缘检测</RootNamespace>
+    <RootNamespace>opencv013轮廓的发现</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
-    <ProjectName>opencv-009-Canny边缘检测</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -147,7 +146,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="mian.cpp" />
+    <ClCompile Include="main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
