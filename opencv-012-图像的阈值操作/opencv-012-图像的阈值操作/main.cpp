@@ -11,7 +11,7 @@ int type_max = 4;
 const char* output_title = "binary image";
 void Threshold_bar(int, void*);
 int main(int argc, char** argv) {
-	src = imread("F:/opencv/InputImg/man2.png");
+	src = imread("F:/opencv/InputImg/man3.png");
 	if (!src.data) {
 		printf("´ò¿ªÍ¼ÏñÊ§°Ü£¡");
 		return -1;

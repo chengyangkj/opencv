@@ -49,5 +49,4 @@ void Canny_Demo(int, void*) {
 	dst.create(src.size(), src.type());
 	src.copyTo(dst,edge_output);
 	imshow(output_title, dst);
-	
 }

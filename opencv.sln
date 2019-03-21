@@ -31,6 +31,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "opencv-人流量识别", "o
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "opencv-013-轮廓的发现", "opencv-013-轮廓的发现\opencv-013-轮廓的发现.vcxproj", "{7301B875-5B06-4105-9445-63D5F5E8BE28}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "opencv-014-轮廓周围绘制矩形框和圆形框", "opencv-013-轮廓周围绘制矩形框和圆形框\opencv-013-轮廓周围绘制矩形框和圆形框.vcxproj", "{54DBFD79-9C00-4CC6-81D3-64F6946B7A01}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "opencv-015-视频的操作", "opencv-015-视频的操作\opencv-015-视频的操作.vcxproj", "{FA97EDE4-ABF7-4745-95A5-69702D9F0BAA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -151,6 +155,22 @@ Global
 		{7301B875-5B06-4105-9445-63D5F5E8BE28}.Release|x64.Build.0 = Release|x64
 		{7301B875-5B06-4105-9445-63D5F5E8BE28}.Release|x86.ActiveCfg = Release|Win32
 		{7301B875-5B06-4105-9445-63D5F5E8BE28}.Release|x86.Build.0 = Release|Win32
+		{54DBFD79-9C00-4CC6-81D3-64F6946B7A01}.Debug|x64.ActiveCfg = Debug|x64
+		{54DBFD79-9C00-4CC6-81D3-64F6946B7A01}.Debug|x64.Build.0 = Debug|x64
+		{54DBFD79-9C00-4CC6-81D3-64F6946B7A01}.Debug|x86.ActiveCfg = Debug|Win32
+		{54DBFD79-9C00-4CC6-81D3-64F6946B7A01}.Debug|x86.Build.0 = Debug|Win32
+		{54DBFD79-9C00-4CC6-81D3-64F6946B7A01}.Release|x64.ActiveCfg = Release|x64
+		{54DBFD79-9C00-4CC6-81D3-64F6946B7A01}.Release|x64.Build.0 = Release|x64
+		{54DBFD79-9C00-4CC6-81D3-64F6946B7A01}.Release|x86.ActiveCfg = Release|Win32
+		{54DBFD79-9C00-4CC6-81D3-64F6946B7A01}.Release|x86.Build.0 = Release|Win32
+		{FA97EDE4-ABF7-4745-95A5-69702D9F0BAA}.Debug|x64.ActiveCfg = Debug|x64
+		{FA97EDE4-ABF7-4745-95A5-69702D9F0BAA}.Debug|x64.Build.0 = Debug|x64
+		{FA97EDE4-ABF7-4745-95A5-69702D9F0BAA}.Debug|x86.ActiveCfg = Debug|Win32
+		{FA97EDE4-ABF7-4745-95A5-69702D9F0BAA}.Debug|x86.Build.0 = Debug|Win32
+		{FA97EDE4-ABF7-4745-95A5-69702D9F0BAA}.Release|x64.ActiveCfg = Release|x64
+		{FA97EDE4-ABF7-4745-95A5-69702D9F0BAA}.Release|x64.Build.0 = Release|x64
+		{FA97EDE4-ABF7-4745-95A5-69702D9F0BAA}.Release|x86.ActiveCfg = Release|Win32
+		{FA97EDE4-ABF7-4745-95A5-69702D9F0BAA}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
