@@ -33,7 +33,15 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "opencv-013-轮廓的发现"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "opencv-014-轮廓周围绘制矩形框和圆形框", "opencv-013-轮廓周围绘制矩形框和圆形框\opencv-013-轮廓周围绘制矩形框和圆形框.vcxproj", "{54DBFD79-9C00-4CC6-81D3-64F6946B7A01}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "opencv-015-视频的操作", "opencv-015-视频的操作\opencv-015-视频的操作.vcxproj", "{FA97EDE4-ABF7-4745-95A5-69702D9F0BAA}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "opencv-015-视频的读写操作", "opencv-015-视频的操作\opencv-015-视频的操作.vcxproj", "{FA97EDE4-ABF7-4745-95A5-69702D9F0BAA}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "opencv-016-视频处理-背景消除建模BSM", "opencv-016-视频处理-背景消除建模BSM\opencv-016-视频处理-背景消除建模BSM.vcxproj", "{75FC48B5-A43B-4F88-B4A2-A0ABA30FA2D6}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "opencv-017-级联分类器的使用-图片处理", "opencv-017-级联分类器\opencv-017-级联分类器.vcxproj", "{C8A5EFBB-3F7A-483F-9E79-999E5D01B0BD}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "test", "test\test.vcxproj", "{2A7B011D-51F2-47C4-8F38-96A4A1B6A63B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "opencv-018-级联分类器的使用-视频处理", "opencv-018-级联分类器的使用-视频处理\opencv-018-级联分类器的使用-视频处理.vcxproj", "{CB53A25D-0FA7-42FA-9337-284219D8C862}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -171,6 +179,38 @@ Global
 		{FA97EDE4-ABF7-4745-95A5-69702D9F0BAA}.Release|x64.Build.0 = Release|x64
 		{FA97EDE4-ABF7-4745-95A5-69702D9F0BAA}.Release|x86.ActiveCfg = Release|Win32
 		{FA97EDE4-ABF7-4745-95A5-69702D9F0BAA}.Release|x86.Build.0 = Release|Win32
+		{75FC48B5-A43B-4F88-B4A2-A0ABA30FA2D6}.Debug|x64.ActiveCfg = Debug|x64
+		{75FC48B5-A43B-4F88-B4A2-A0ABA30FA2D6}.Debug|x64.Build.0 = Debug|x64
+		{75FC48B5-A43B-4F88-B4A2-A0ABA30FA2D6}.Debug|x86.ActiveCfg = Debug|Win32
+		{75FC48B5-A43B-4F88-B4A2-A0ABA30FA2D6}.Debug|x86.Build.0 = Debug|Win32
+		{75FC48B5-A43B-4F88-B4A2-A0ABA30FA2D6}.Release|x64.ActiveCfg = Release|x64
+		{75FC48B5-A43B-4F88-B4A2-A0ABA30FA2D6}.Release|x64.Build.0 = Release|x64
+		{75FC48B5-A43B-4F88-B4A2-A0ABA30FA2D6}.Release|x86.ActiveCfg = Release|Win32
+		{75FC48B5-A43B-4F88-B4A2-A0ABA30FA2D6}.Release|x86.Build.0 = Release|Win32
+		{C8A5EFBB-3F7A-483F-9E79-999E5D01B0BD}.Debug|x64.ActiveCfg = Debug|x64
+		{C8A5EFBB-3F7A-483F-9E79-999E5D01B0BD}.Debug|x64.Build.0 = Debug|x64
+		{C8A5EFBB-3F7A-483F-9E79-999E5D01B0BD}.Debug|x86.ActiveCfg = Debug|Win32
+		{C8A5EFBB-3F7A-483F-9E79-999E5D01B0BD}.Debug|x86.Build.0 = Debug|Win32
+		{C8A5EFBB-3F7A-483F-9E79-999E5D01B0BD}.Release|x64.ActiveCfg = Release|x64
+		{C8A5EFBB-3F7A-483F-9E79-999E5D01B0BD}.Release|x64.Build.0 = Release|x64
+		{C8A5EFBB-3F7A-483F-9E79-999E5D01B0BD}.Release|x86.ActiveCfg = Release|Win32
+		{C8A5EFBB-3F7A-483F-9E79-999E5D01B0BD}.Release|x86.Build.0 = Release|Win32
+		{2A7B011D-51F2-47C4-8F38-96A4A1B6A63B}.Debug|x64.ActiveCfg = Debug|x64
+		{2A7B011D-51F2-47C4-8F38-96A4A1B6A63B}.Debug|x64.Build.0 = Debug|x64
+		{2A7B011D-51F2-47C4-8F38-96A4A1B6A63B}.Debug|x86.ActiveCfg = Debug|Win32
+		{2A7B011D-51F2-47C4-8F38-96A4A1B6A63B}.Debug|x86.Build.0 = Debug|Win32
+		{2A7B011D-51F2-47C4-8F38-96A4A1B6A63B}.Release|x64.ActiveCfg = Release|x64
+		{2A7B011D-51F2-47C4-8F38-96A4A1B6A63B}.Release|x64.Build.0 = Release|x64
+		{2A7B011D-51F2-47C4-8F38-96A4A1B6A63B}.Release|x86.ActiveCfg = Release|Win32
+		{2A7B011D-51F2-47C4-8F38-96A4A1B6A63B}.Release|x86.Build.0 = Release|Win32
+		{CB53A25D-0FA7-42FA-9337-284219D8C862}.Debug|x64.ActiveCfg = Debug|x64
+		{CB53A25D-0FA7-42FA-9337-284219D8C862}.Debug|x64.Build.0 = Debug|x64
+		{CB53A25D-0FA7-42FA-9337-284219D8C862}.Debug|x86.ActiveCfg = Debug|Win32
+		{CB53A25D-0FA7-42FA-9337-284219D8C862}.Debug|x86.Build.0 = Debug|Win32
+		{CB53A25D-0FA7-42FA-9337-284219D8C862}.Release|x64.ActiveCfg = Release|x64
+		{CB53A25D-0FA7-42FA-9337-284219D8C862}.Release|x64.Build.0 = Release|x64
+		{CB53A25D-0FA7-42FA-9337-284219D8C862}.Release|x86.ActiveCfg = Release|Win32
+		{CB53A25D-0FA7-42FA-9337-284219D8C862}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

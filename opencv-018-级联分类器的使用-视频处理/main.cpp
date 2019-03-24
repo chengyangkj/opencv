@@ -5,7 +5,7 @@ using namespace cv;
 using namespace std;
 
 //定义训练结果的目录
-String fileName = "F:/opencv/opencv/sources/data/haarcascades/haarcascade_lowerbody.xml";
+String fileName = "F:/opencv/opencv/sources/data/haarcascades/haarcascade_frontalface_alt.xml";
 //定义模型对象
 CascadeClassifier face_classifier;
 int main() {
@@ -14,14 +14,13 @@ int main() {
 		printf("加载模型失败");
 		return -1;
 	}
-	VideoCapture capture;
-	capture.open("F:/opencv/InputImg/外走廊_人多.mp4");
+	VideoCapture capture(0);
 	Mat fram;
 	Mat gray;
 	while (capture.read(fram))
 	{
 		//转换为灰度图像
-		cvtColor(fram, gray, COLOR_BGR2GRAY);
+		cvtColor(fram , gray, COLOR_BGR2GRAY);
 		//直方图均衡化 
 		equalizeHist(gray, gray);
 		//定义矩形容器 将检测的结果放入 
@@ -40,7 +39,7 @@ int main() {
 			break;
 		}
 	}
-
+	
 	waitKey(0);
 	return 0;
 }
